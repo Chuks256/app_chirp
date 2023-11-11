@@ -1,12 +1,12 @@
 
 import "../styles/ComponentStyles.css"
-import Logo from "../assets/Logo.png"
+import logo from "../assets/logo.png"
 
 let NavbarComponent=()=>{
     return(
         <>
         <div className="NavContainer">
-        <img src={Logo} alt="logo_png" className="chirpLogo" />
+        <img src={logo} alt="logo_png" className="chirpLogo" />
         </div>
         </>
     )
