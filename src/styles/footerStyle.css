@@ -36,9 +36,9 @@
     }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
     .handImg{
-        width:280px;
+        width:240px;
     }
     .chirpFooter{
         display:none
