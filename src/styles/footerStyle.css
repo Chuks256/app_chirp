@@ -1,0 +1,28 @@
+.handImg{
+    position: absolute;
+    bottom: 0;
+    width:330px;
+    z-index: 2;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chirpFooter{
+    position:absolute;
+    bottom: 0;
+    width:1350px;
+    bottom: 0;
+}
+
+@media screen and (max-width:750px){
+    .handImg{
+        width:300px;
+    }
+    .chirpFooter{
+        display:none
+    }
+}

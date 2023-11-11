@@ -1,0 +1,26 @@
+.signupFormContainer{
+ width:50%;
+ height: 1000px;
+ background-color: white; 
+ margin:0;
+ box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap:10vw;
+}
+
+.luvYouImg{
+width:25vw;
+height:100vh;
+}
+
+@media screen and (max-width:750px){
+    .luvYouImg{
+        display: none;
+    }
+    .signupFormContainer{
+        width:100%
+    }
+}
