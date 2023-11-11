@@ -66,3 +66,29 @@ border-radius:10px;
         font-size:14px;
     }
 }
+
+
+@media screen and (max-width:320px) {
+    .headerImg{
+        width:95vw;
+        transform:rotate(1deg)
+    }
+
+    .headerContainer{
+        gap:2px;
+    }
+    .headerButtonContainer{
+        flex-direction: column;
+        gap:15px;
+    }     
+    
+    .headerBtn{
+        width: 300px;
+        font-size:13px;
+        padding:10px;
+        border-radius:10px;
+    }
+    .headerDetails{
+        font-size: 12px;
+    }
+}
