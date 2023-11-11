@@ -2,7 +2,7 @@
 import "../styles/ComponentStyles.css"
 import Logo from "../assets/Logo.png"
 
-let Navbar=()=>{
+let NavbarComponent=()=>{
     return(
         <>
         <div className="NavContainer">
@@ -13,4 +13,4 @@ let Navbar=()=>{
 }
 
 
-export default Navbar
+export default NavbarComponent
