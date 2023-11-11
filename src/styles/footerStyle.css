@@ -35,3 +35,12 @@
         display:none
     }
 }
+
+@media screen and (max-width:375px){
+    .handImg{
+        width:280px;
+    }
+    .chirpFooter{
+        display:none
+    }
+}

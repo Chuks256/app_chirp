@@ -12,7 +12,7 @@ return(
     <p className="headerDetails">An Easy And Seamless Way To Receive Tips</p>
         </div>
         <div className="headerButtonContainer">
-            <button className="headerBtn">Get Started</button>
+            <button className="headerBtn">Get a Started</button>
             <Link to="/signin" className="headerOthers">Sign in</Link>
         </div>
     </div>
